@@ -31,7 +31,7 @@ function Products() {
             <Text>Purchase Price: {item.purchasePrice}</Text>
             <Text>Discount: {item.discount}</Text>
             <Text>GST Tax: {item.gstTax}</Text>
-            <Text>Stock: {item.stock}</Text>
+            {/* <Text>Stock: {item.stock}</Text> */}
             <Button
               title="Delete"
               onPress={() => handleDeleteProduct(item.id)}
